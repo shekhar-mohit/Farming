@@ -15,7 +15,7 @@ const News = () => {
       const response = await axios.get('https://newsapi.org/v2/everything', {
         params: {
           q: 'India Mandi News OR harvest OR crop insurance OR subsidy OR agriculture OR farmer OR farming OR government farmer OR crop harvest OR crop insurance OR subsidy',
-          apiKey: 'e74fdafcca464b7c8186e1541204fa4a',
+          apiKey: '197565a00bbe48dfa2db0d647f67ab5e',
           language: 'en',
           pageSize: 6,
           page: pageNum,
